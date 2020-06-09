@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400&display=swap');
+
+
+
+body {
+  display:flex;
+  flex-flow: column;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+}
+
+.productBox {
+display: flex;
+flex-flow: column;
+border: 2px solid lightgray;
+align-items: center;
+}
+
+.allProductBox {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+width: 80%;
+padding: 10px;
+margin: 0 auto;
+  }
+
+.productDetailBox {
+display: flex;
+flex-flow: row;
+
+  }
+
+  .productInfoBox{
+    display: flex;
+    flex-flow: column;
+  }
+
+  h6{
+    font-size: 35px;
+    font-family: Kalam;
+    border-bottom: 2px solid lightgray;
+    margin: 0 auto;
+    padding: 18px;
+  }
+
+  a {
+
+    text-decoration: none;
+    color: black;
+
+  }
